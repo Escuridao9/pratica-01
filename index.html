@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPCA - Ensino Superior Público - Barcelos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logotipo"></div>
         <img src="UPCA.svg" alt="Logótipo UPCA">
-        <nav class="navigation"></nav>
+        <form action="/enviar">
+            <label for="busca"></label>
+            <input type="search" id="busca">
+            <button type="submit">Enviar</button>
+        </form>
+        <nav class="navigation">
+            <ul class="nav-options">
+                <li>Estudar</li>
+                <li>I&D+I</li>
+                <li>Internacional</li>
+                <li>Viver</li>
+                <li>UPCA</li>
+            </ul>
+        </nav>
     </header>
 </body>
 </html>
